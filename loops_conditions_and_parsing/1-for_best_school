@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #writing a script that prints bestschool on standard output using for loop
 
 for ((i=1; i<=10; i++))

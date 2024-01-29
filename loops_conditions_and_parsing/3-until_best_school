@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #writing a script that use until loop to print best school ten times
 
 counter=0
