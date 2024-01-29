@@ -1,0 +1,11 @@
+#!/bin/bash
+#writing a while loop script that prints best school ten times
+
+counter=0
+
+while[ $counter -lt 10 ]
+
+do 
+	echo "Best School"
+	((counter++))
+done
