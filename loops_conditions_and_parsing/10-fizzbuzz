@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Using a for loop to display "Best School" 10 times
+for ((num=1; num<=100; num++))
+do
+	if [ $((num % 3)) -eq 0] && [ $((num % 5)) -eq 0 ]; then
+
+		echo "FizBuzz"
+	elif [ $((num % 3))]; then
+		echo "Fizz"
+
+	elif [ $((num % 5))]; then
+		echo "Buzz"
+	else
+		echo "$num"
+done

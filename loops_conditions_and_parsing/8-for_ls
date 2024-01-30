@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#creating a a for loop script that checks the content of current working directory and display the names after first dash and excluding hidden files
+
+for file in $(ls -p | grep -v /); do
+	name_part=$(echo "$file" | cut -d'-' -f2-)
+	echo "$name_part"
+done
