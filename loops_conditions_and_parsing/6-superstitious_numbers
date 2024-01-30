@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Using a while loop and case statement to display numbers with specific messages
 
 counter=1
