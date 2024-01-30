@@ -3,7 +3,7 @@
 
 for ((num=1; num<=100; num++))
 do
-	if [ $((num % 3)) -eq 0] && [ $((num % 5)) -eq 0 ]; then
+	if [ $((num % 3)) -eq 0 ] && [ $((num % 5)) -eq 0 ]; then
 
 		echo "FizBuzz"
 	elif [ $((num % 3))]; then
@@ -13,4 +13,5 @@ do
 		echo "Buzz"
 	else
 		echo "$num"
+	fi
 done
