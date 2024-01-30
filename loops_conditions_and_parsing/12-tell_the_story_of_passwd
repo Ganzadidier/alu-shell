@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Using a while loop with IFS to read the /etc/passwd file
 
 while IFS=: read -r username password uid gid gecos home shell
