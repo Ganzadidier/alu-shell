@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#using awk to display ip and http status code of a visitor
+
+awk '{print $1, $9}' apache-access.log
